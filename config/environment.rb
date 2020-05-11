@@ -5,10 +5,10 @@ require_relative 'application'
 Rails.application.initialize!
 
 ActionMailer::Base;smtp_settings = {
-    :user_name => ENV['SENDGRID_LOGIN'],
-    :password => ENV['SENDGRID_PWD'],
+    :user_name => ENV['HOTMAIL_LOGIN'],
+    :password => ENV['HOTMAIL_PWD'],
     :domain => 'hotmail.fr',
-    :adress => 'smtp.sengrid.net',
+    :adress => 'smtp.office365.com',
     :port => 587,
     :autentication => :plain,
     :enable_starttls_auto => true
