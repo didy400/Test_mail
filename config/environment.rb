@@ -7,7 +7,7 @@ Rails.application.initialize!
 ActionMailer::Base;smtp_settings = {
     :user_name => ENV['SENDGRID_LOGIN'],
     :password => ENV['SENDGRID_PWD'],
-    :domain => 'monsite.fr',
+    :domain => 'hotmail.fr',
     :adress => 'smtp.sengrid.net',
     :port => 587,
     :autentication => :plain,
